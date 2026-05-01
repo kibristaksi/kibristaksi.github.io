@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+Sitemap: https://cypviptransfer.com/sitemap.xml
