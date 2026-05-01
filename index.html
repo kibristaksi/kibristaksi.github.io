@@ -364,10 +364,6 @@
 document.getElementById('menuToggle').addEventListener('click', () => {
   document.getElementById('navLinks').classList.toggle('active');
 });
-// Scroll effects
-window.addEventListener('scroll', () => {
-  document.getElementById('navbar').classList.toggle('scrolled', window.scrollY > 50);
-});
 // FAQ
 document.querySelectorAll('.faq-question').forEach(btn => {
   btn.addEventListener('click', () => {
